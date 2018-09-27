@@ -1,31 +1,404 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<div class="content">
+    <!-- START Sub-Navbar with Header only-->
+    <div class="sub-navbar sub-navbar__header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header m-t-0">
+                        <h3 class="m-t-0">System</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Sub-Navbar with Header only-->
+    <!-- START Sub-Navbar with Header and Breadcrumbs-->
+    <div class="sub-navbar sub-navbar__header-breadcrumbs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 sub-navbar-column">
+                    <div class="sub-navbar-header">
+                        <h3>System</h3>
+                    </div>
+                    <ol class="breadcrumb navbar-text navbar-right no-bg">
+                        <li class="current-parent">
+                            <a class="current-parent" href="../index.html">
+                                <i class="fa fa-fw fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Start
+                            </a>
+                        </li>
+                        <li class="active">System</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Sub-Navbar with Header and Breadcrumbs-->
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+
+    <div class="container">
+
+        <!-- START EDIT CONTENT -->
+        <div class="row">
+            <div class="col-lg-12 m-t-2">
+
+                <!-- START 4 Boxes -->
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="panel panel-default b-a-0 bg-gray-dark">
+                            <div class="panel-heading bg-primary-i">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <span class="text-uppercsase">Memory</span>
+                                        <br>
+                                        <h1 class="display-4 m-t-0 m-b-0">
+                                            25 <small class="text-uppercase text-white">% </small>
+                                            <span class="label label-white label-outline m-l-1 f-25"><i class="fa fa-caret-down"></i> 12 %</span>
+                                        </h1>
+                                    </div>
+                                    <div class="media-right">
+                                        <p class="data-attributes m-b-0">
+                                            <span data-peity="{ &quot;fill&quot;: [&quot;#FFFFFF&quot;, &quot;#4ca8e1&quot;],  &quot;innerRadius&quot;: 20, &quot;radius&quot;: 28  }">2/7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body p-t-3 p-b-0 text-center">
+                                <div class="center-block">
+                                    <span class="sparkline-bar">0:2,2:4,4:2,4:1,4:1,5:2,1:2,4:1,0:2,2:4,4:2,4:1,4:1,5:2,1:2,4:1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="panel panel-default b-a-0 bg-gray-dark">
+                            <div class="panel-heading bg-success-i">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <span class="text-uppercsase">CPU</span>
+                                        <br>
+                                        <h1 class="display-4 m-t-0 m-b-0">
+                                            71 <small class="text-uppercase text-white">%</small>
+
+                                            <span class="label label-white label-outline m-l-1 f-25"><i class="fa fa-caret-up"></i> 2 %</span>
+
+                                        </h1>
+                                    </div>
+                                    <div class="media-right">
+                                        <p class="data-attributes m-b-0">
+                                            <span data-peity="{ &quot;fill&quot;: [&quot;#FFFFFF&quot;, &quot;#98be68&quot;],  &quot;innerRadius&quot;: 20, &quot;radius&quot;: 28  }">8/10</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body p-t-3 p-b-0 text-center">
+                                <div class="center-block">
+                                    <span class="sparkline-bar">4:1,4:1,5:2,1:2,4:1,0:2,2:4,4:2,4:1,4:1,5:2,1:2,4:1,0:2,2:4,4:2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="panel panel-default b-a-0 bg-gray-dark">
+                            <div class="panel-heading bg-warning-i">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <span class="text-uppercsase">Traffic</span>
+                                        <br>
+                                        <h1 class="display-4 m-t-0 m-b-0">
+                                            1.8 <small class="text-uppercase text-white">kb</small>
+
+                                            <span class="label label-white label-outline m-l-1 f-25"><i class="fa fa-caret-down"></i> 7 %</span>
+
+                                        </h1>
+                                    </div>
+                                    <div class="media-right">
+                                        <p class="data-attributes m-b-0">
+                                            <span data-peity="{ &quot;fill&quot;: [&quot;#FFFFFF&quot;, &quot;#ea825c&quot;], &quot;innerRadius&quot;: 20, &quot;radius&quot;: 28 }">3/10</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body p-t-3 p-b-0 text-center">
+                                <div class="center-block">
+                                    <span class="sparkline-bar">4:1,4:1,5:2,1:2,4:1,0:2,2:4,4:2,4:1,4:1,5:2,1:2,4:1,0:2,2:4,4:2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="panel panel-default b-a-0 bg-gray-dark">
+                            <div class="panel-heading bg-danger-i">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <span class="text-uppercsase">Disk I/O</span>
+                                        <br>
+                                        <h1 class="display-4 m-t-0 m-b-0">
+                                            3.1 <small class="text-uppercase text-white">kb</small>
+
+                                            <span class="label label-white label-outline m-l-1 f-25"><i class="fa fa-caret-down"></i> 9 %</span>
+
+                                        </h1>
+                                    </div>
+                                    <div class="media-right">
+                                        <p class="data-attributes m-b-0">
+                                            <span data-peity="{ &quot;fill&quot;: [&quot;#FFFFFF&quot;, &quot;#d35b66&quot;], &quot;innerRadius&quot;: 20, &quot;radius&quot;: 28 }">3/7</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body p-t-3 p-b-0 text-center">
+                                <div class="center-block">
+                                    <span class="sparkline-bar">2:4,4:2,4:1,4:1,5:2,1:2,4:1,0:2,2:4,4:2,4:1,4:1,5:2,1:2,4:1,0:2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END 4 Boxes -->
+                <!-- START ROW -->
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="panel panel-default no-bg b-a-2 b-gray-dark">
+
+                            <div class="panel-heading">
+                                <div class="btn-group pull-right" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-sm btn-default"><i class="fa fa-angle-left"></i></button>
+                                    <button type="button" class="btn btn-sm btn-default"><i class="fa fa-angle-right"></i></button>
+                                </div>
+                                <h4 class="m-t-0 m-b-0">Processes</h4>
+
+                            </div>
+
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit maiores, sunt explicabo sapiente aspernatur possimus quas ipsam amet error! Repudiandae minima minus nemo neque quae quas impedit itaque nobis dignissimos.</p>
+                            </div>
+
+                            <!-- START Table -->
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+
+                                        <tr>
+                                            <th class="small text-muted text-uppercase" style="width: 20%">
+                                                <strong>name</strong>
+                                            </th>
+                                            <th class="small text-muted text-uppercase">
+                                                <strong>Count</strong>
+                                            </th>
+                                            <th class="small text-muted text-uppercase">
+                                                <strong>Memory</strong>
+                                            </th>
+                                            <th class="small text-muted text-uppercase">
+                                                <strong>CPU</strong>
+                                            </th>
+                                            <th class="small text-muted text-uppercase">
+                                                <strong>Disk I/O</strong>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <!-- START ROW Monitor -->
+                                        <tr>
+                                            <td class="v-a-m">
+                                                <!-- START Widget - Progressbar -->
+                                                <h4 class="m-t-0">Apache <span class="label m-t-1 label-gray-lighter label-outline pull-right" style="font-size: 55%">v. 12.02</span></h4>
+                                                <div class="progress b-r-a-0 m-t-0 m-b-1" style="height: 3px">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                                        <span class="sr-only">60% Complete</span>
+                                                    </div>
+                                                </div>
+                                                <span class="m-t-0">
+                                                    <span class="text-white">95%</span> <span class="pull-right">1,200 GB Left</span>
+                                                </span>
+                                                <!-- END Widget - Progressbar -->
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>12</h4>
+                                                <span id="examplePeityDynamicPrimary" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>200 Mb</h4>
+                                                <span id="examplePeityDynamicSuccess" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>10 %</h4>
+                                                <span id="examplePeityDynamicWarning" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>89 KB/s</h4>
+                                                <span id="examplePeityDynamicDanger" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                        </tr>
+                                        <!-- END ROW Monitor -->
+                                        <!-- START ROW Monitor2 -->
+                                        <tr>
+                                            <td class="v-a-m">
+                                                <!-- START Widget - Progressbar -->
+                                                <h4 class="m-t-0">Postfix <span class="label m-t-1 label-gray-lighter label-outline pull-right" style="font-size: 55%">v. 5.09</span></h4>
+                                                <div class="progress b-r-a-0 m-t-0 m-b-1" style="height: 3px">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                                        <span class="sr-only">60% Complete</span>
+                                                    </div>
+                                                </div>
+                                                <span class="m-t-0">
+                                                    <span class="text-white">36%</span> <span class="pull-right">2,190 GB Left</span>
+                                                </span>
+                                                <!-- END Widget - Progressbar -->
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>6</h4>
+                                                <span id="examplePeityDynamicPrimary2" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>186 Mb</h4>
+                                                <span id="examplePeityDynamicSuccess2" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>78 %</h4>
+                                                <span id="examplePeityDynamicWarning2" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m p-b-0">
+                                                <h4>11 KB/s</h4>
+                                                <span id="examplePeityDynamicDanger2" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                        </tr>
+                                        <!-- END ROW Monitor2 -->
+                                        <!-- START ROW Monitor3 -->
+                                        <tr>
+                                            <td class="v-a-m">
+                                                <!-- START Widget - Progressbar -->
+                                                <h4 class="m-t-0">Ruby R1<span class="label m-t-1 label-gray-lighter label-outline pull-right" style="font-size: 55%">v. 0.0.02</span></h4>
+                                                <div class="progress b-r-a-0 m-t-0 m-b-1" style="height: 3px">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                                                        <span class="sr-only">60% Complete</span>
+                                                    </div>
+                                                </div>
+                                                <span class="m-t-0">
+                                                    <span class="text-white">42%</span> <span class="pull-right">8,103 GB Left</span>
+                                                </span>
+                                                <!-- END Widget - Progressbar -->
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>4</h4>
+                                                <span id="examplePeityDynamicPrimary3" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>12 Mb</h4>
+                                                <span id="examplePeityDynamicSuccess3" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>90 %</h4>
+                                                <span id="examplePeityDynamicWarning3" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m p-b-0">
+                                                <h4>987 KB/s</h4>
+                                                <span id="examplePeityDynamicDanger3" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                        </tr>
+                                        <!-- END ROW Monitor3 -->
+                                        <!-- START ROW Monitor4 -->
+                                        <tr>
+                                            <td class="v-a-m">
+                                                <!-- START Widget - Progressbar -->
+                                                <h4 class="m-t-0">MySQL<span class="label m-t-1 label-gray-lighter label-outline pull-right" style="font-size: 55%">v. 6.1</span></h4>
+                                                <div class="progress b-r-a-0 m-t-0 m-b-1" style="height: 3px">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                                        <span class="sr-only">60% Complete</span>
+                                                    </div>
+                                                </div>
+                                                <span class="m-t-0">
+                                                    <span class="text-white">95%</span> <span class="pull-right">1,200 GB Left</span>
+                                                </span>
+                                                <!-- END Widget - Progressbar -->
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>12</h4>
+                                                <span id="examplePeityDynamicPrimary4" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>200 Mb</h4>
+                                                <span id="examplePeityDynamicSuccess4" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>10 %</h4>
+                                                <span id="examplePeityDynamicWarning4" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>89 KB/s</h4>
+                                                <span id="examplePeityDynamicDanger4" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                        </tr>
+                                        <!-- END ROW Monitor4 -->
+                                        <!-- START ROW Monitor5 -->
+                                        <tr>
+                                            <td class="v-a-m">
+                                                <!-- START Widget - Progressbar -->
+                                                <h4 class="m-t-0">Ruby R2<span class="label m-t-1 label-gray-lighter label-outline pull-right" style="font-size: 55%">v. 1.1</span></h4>
+                                                <div class="progress b-r-a-0 m-t-0 m-b-1" style="height: 3px">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                                        <span class="sr-only">60% Complete</span>
+                                                    </div>
+                                                </div>
+                                                <span class="m-t-0">
+                                                    <span class="text-white">36%</span> <span class="pull-right">2,190 GB Left</span>
+                                                </span>
+                                                <!-- END Widget - Progressbar -->
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>6</h4>
+                                                <span id="examplePeityDynamicPrimary5" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>186 Mb</h4>
+                                                <span id="examplePeityDynamicSuccess5" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m">
+                                                <h4>78 %</h4>
+                                                <span id="examplePeityDynamicWarning5" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                            <td class="v-a-m p-b-0">
+                                                <h4>11 KB/s</h4>
+                                                <span id="examplePeityDynamicDanger5" data-plugin="peityLine">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                            </td>
+                                        </tr>
+                                        <!-- END ROW Monitor5 -->
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- END Table -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- END ROW -->
+
+            </div>
+        </div>
+        <!-- END EDIT CONTENT -->
+
+    </div>
+
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+@section scripts{
+    <script src="~/Scripts/jquery.sparkline.min.js"></script>
+
+    <script src="~/Scripts/highstock.min.js"></script>
+
+    <script src="~/Scripts/peity-settings.js"></script>
+
+    <script src="~/Scripts/sparklines-settings.js"></script>
+
+    <script src="~/Scripts/highchartshighstock-theme.js"></script>
+
+    <script src="~/Scripts/highcharts-settings.js"></script>
+    }
