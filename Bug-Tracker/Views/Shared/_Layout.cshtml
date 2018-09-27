@@ -177,6 +177,7 @@
                             </div>
                         </div>
                         <!-- END Search Mobile -->
+
                         <!-- START Left Side Navbar -->
                         <ul class="nav navbar-nav navbar-left clearfix yamm">
 
@@ -803,6 +804,7 @@
                             </li>
                         </ul>
                         <!-- END Left Side Navbar -->
+
                         <!-- START Right Side Navbar -->
                         <ul class="nav navbar-nav navbar-right">
 
@@ -1095,39 +1097,16 @@
 
                             </li>
 
-                            <li class="dropdown">
-                                <a class="dropdown-toggle user-dropdown" data-toggle="dropdown" href="#" role="button">
-                                    <span class="m-r-1">Kraig Schuster</span>
-                                    <div class="avatar avatar-image avatar-sm avatar-inline">
-                                        <img alt="User" src="https://s3.amazonaws.com/uifaces/faces/twitter/collegeman/128.jpg">
-                                    </div>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-header text-gray-lighter">
-                                        <strong class="text-uppercase">Account</strong>
-                                    </li>
-                                    <li role="separator" class="divider"></li>
-                                    <li>
-                                        <a href="../apps/profile-details.html">Your Profile</a>
-                                    </li>
-                                    <li>
-                                        <a href="../apps/profile-edit.html">Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="../apps/faq.html">Faq</a>
-                                    </li>
-                                    <li role="separator" class="divider"></li>
-                                    <li>
-                                        <a href="../pages/login.html">Sign Out</a>
-                                    </li>
-                                </ul>
-                            </li>
+                            @Html.Partial("_LoginPartial")
+
                             <li class="hidden-xs">
                                 <a class="action-right-sidebar-toggle" title="Right sidebar on/off">
                                     <i class="fa fa-lg fa-align-right"></i>
                                 </a>
                             </li>
                         </ul>
+                       
+
                         <!-- END Right Side Navbar -->
                     </div>
 
@@ -1135,6 +1114,7 @@
                 </div>
             </div>
             <!-- END Navbar -->
+
             <!-- START Sidebars -->
             <aside class="navbar-default sidebar">
                 <div class="sidebar-overlay-head">
@@ -3552,6 +3532,8 @@
         <!-- END Footer -->
 
     </div>
+
+
     <script>
         // Hide loader
         (function () {
